@@ -20,8 +20,6 @@ var Path = func() *path {
 }()
 
 type path struct {
-	homeDir    string
-	configFile string
 }
 
 // SetHomeDir is used to set the configuration path
